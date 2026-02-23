@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "general_tech",
+      "scrape_depth": "homepage",
+      "enabled": true
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com",
+      "category": "consumer_tech",
+      "scrape_depth": "homepage",
+      "enabled": true
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "category": "developer",
+      "scrape_depth": "homepage",
+      "enabled": true
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "in_depth",
+      "scrape_depth": "homepage",
+      "enabled": true
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "category": "business_tech",
+      "scrape_depth": "homepage",
+      "enabled": true
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com",
+      "category": "general_tech",
+      "scrape_depth": "homepage",
+      "enabled": true
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com",
+      "category": "research",
+      "scrape_depth": "homepage",
+      "enabled": false
+    },
+    {
+      "name": "The Information",
+      "url": "https://www.theinformation.com",
+      "category": "business_tech",
+      "scrape_depth": "homepage",
+      "enabled": false,
+      "note": "Requires subscription - disable by default"
+    }
+  ],
+  "scraping_config": {
+    "max_concurrent": 3,
+    "timeout_seconds": 30,
+    "retry_attempts": 3,
+    "retry_delay_seconds": 5,
+    "user_agent": "TechNewsBot/1.0"
+  }
+}
